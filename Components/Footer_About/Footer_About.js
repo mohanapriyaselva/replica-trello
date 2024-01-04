@@ -39,7 +39,7 @@ export function Footer_About(){
                 <div><img src={require('../Footer_About/Google.PNG')}className="col-3"></img>
                 <img src={require('../Footer_About/visa.PNG')} className="col-2"></img>
                 <img src={require('../Footer_About/zoom.PNG')} className="col-3"></img></div>
-            </div>
+                </div>
             </div>
 
 

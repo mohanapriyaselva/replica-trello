@@ -1,5 +1,5 @@
 #Footerfirsthalf{
-    background-image: linear-gradient(to right,rgb(112,69,172),rgb(224,79,179));
+    background-image: linear-gradient(to right,#16f9c5,#f6f72b);
     height:40vh;
     width: 100%;
 }
@@ -16,7 +16,8 @@
     display: none;
 }
 #instaicon:hover #instatxt,#faceicon:hover #facetxt,#linkicon:hover #linktxt,#twiticon:hover #twitxt,#youicon:hover #youtxt{
-    display: flex;
+    
+    display:inline-block;
 
 }
 

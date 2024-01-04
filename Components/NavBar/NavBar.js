@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import '../NavBar/navbar.css';
 export function NavBar(){
     return(
         <>
@@ -10,8 +11,9 @@ export function NavBar(){
         <Link to='/FooterJob'><button className='btn btn-dark'>Footer-Job</button></Link>
         <Link to='/FooterAPP'><button className='btn btn-danger'>FooterAPP</button></Link>
         <Link to='/Contactus'><button className='btn btn-light'>Footer-Contact</button></Link>
-        <Link to='/HomeFooter'><button className='btn btn-dark text-light'>Home-Footer</button></Link> */}
-        
+        <Link to='/HomeFooter'><button className='btn btn-dark text-light'>Home-Footer</button></Link>
+         <Link to='/PrivacyPolicy'><button className='btn btn-dark text-light'>Privacy Policy</button></Link> */}
+       <Link to='/Language'><button className='btn btn-dark text-light'>Language</button></Link>
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -34,6 +36,8 @@ export function NavBar(){
             <Link to='/FooterJob'><li><a class="dropdown-item" >FooterJob</a></li></Link>
             <Link to='/FooterAPP'><li><a class="dropdown-item" >FooterApp</a></li></Link>
             <Link to='/Contactus'><li><a class="dropdown-item" >FooterContactus</a></li></Link>
+            <Link to='/Privacypolicy'><li><a class="dropdown-item" >rivacypolicy</a></li></Link>
+
            
           </ul>
         </li>

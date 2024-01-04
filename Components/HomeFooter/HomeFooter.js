@@ -22,7 +22,7 @@ export function HomeFooter(){
 
     <div id="Footersecondhalf" className="text-center">
 
-             {/* ==========================================================================================             */}
+             {/* ========================================================================================== */}
           <div className="d-lg-flex text-light justify-content-lg-around ">
                         <div><img src={require('../Footer/logo.PNG')}></img><Link to={"/"}><h6 className='text-light'>Log In</h6></Link></div>
                         <Link to="/FooterAbout"><div id="about" className='pt-4 p-2'><button className='btn text-light'><h2>About Trello</h2><p>What's behind the boards</p></button></div></Link>
@@ -37,7 +37,7 @@ export function HomeFooter(){
        {/* ============================================================================================= */}
           <div className='d-lg-flex justify-content-lg-evenly text-start  p-1   '>
           <div className='d-lg-flex text-light gap-5 p-2 '>
-                <div><FontAwesomeIcon icon={faGlobe} flip /> English <select><option></option><option>Tamil</option><option>English</option></select></div>  
+                {/* <div><FontAwesomeIcon icon={faGlobe} flip /></div>   */}
                 <div>Privacy Policy</div>
                 <div>Terms</div>
                 <div>Copyright&copy;2023 Atlassian</div>

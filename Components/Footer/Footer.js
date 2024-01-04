@@ -46,8 +46,8 @@ export function Footer(){
        {/* ============================================================================================= */}
           <div className='d-lg-flex justify-content-lg-evenly text-start  p-1   '>
           <div className='d-lg-flex text-light gap-5 p-2 '>
-                <div><FontAwesomeIcon icon={faGlobe} flip /> English <select><option></option><option>Tamil</option><option>English</option></select></div>  
-                <div>Privacy Policy</div>
+                {/* <div><FontAwesomeIcon icon={faGlobe} flip /> English <select><option></option><option>Tamil</option><option>English</option></select></div>   */}
+                <Link to="/PrivacyPolicy"> <div><button className='btn text-light'>Privacy Policy</button></div></Link>
                 <div>Terms</div>
                 <div>Copyright&copy;2023 Atlassian</div>
           </div>
